@@ -1,0 +1,32 @@
+.card {
+  border: none;
+  background-color: #f8f9fa;
+}
+.item-main {
+  position: relative;
+  margin-top: 56px;
+  padding: 24px;
+}
+
+.item-icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.card-text {
+  font-size: 15px;
+}
