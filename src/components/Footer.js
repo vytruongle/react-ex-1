@@ -4,7 +4,7 @@ import "./footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="bg-dark">
+      <div className="bg-dark mt-5">
         <div className="container footer">
           <p className="text-white footer-text">
             Copyright © Your Website 2022
